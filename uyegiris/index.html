@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Anasayfa</title>
+<link href="css/index.css" type="text/css" rel="stylesheet"/>
+	<script>
+		function dogrula()
+		{
+			var x=document.forms["form1"]["k1"].value;
+			var y=document.forms["form1"]["k2"].value;
+			var z=document.forms["form1"]["ra1"].value;
+			if(x == null|| x == "")
+			{
+				alert("Üye adınızı girmediniz");
+				return false;
+			}
+			if(y == null|| y == "")
+			{
+				alert("E-postanızı girmediniz");
+				return false;
+			}
+			if(z == null|| z == false)
+			{
+				alert("Cinsiyetinizi seciniz");
+				return false;
+			}
+		}
+	</script>
+</head>
+
+<body style="overflow-x: hidden;">
+<div id="site">
+	
+  <div id="baslık">
+	  <h1 id="a1"> ÜYE OL</h1>
+	</div>
+	
+  <div id="icerik">
+	  <form name="form1" action="gonderildi.html" onSubmit="return dogrula()">
+	    <p id="p1">Üye Adı: </p>
+	  	<input type="text" name="k1" id="kutu1"/>
+	  
+	  	<p id="p2">E-posta: </p>
+	  	<input type="text" name="k2" id="kutu2"/>
+	  
+	  	<p id="p3">Cinsiyet: </p>
+	    <input type="radio" name="ra1" id="r1">
+	    <input type="radio"  name="ra1" id="r2">
+	    <input type="radio"   name="ra1" id="r3">
+	  	<p id="s1">Erkek </p>
+	    <p id="s2">Kadın </p>
+	    <p id="s3">Diğer </p>
+	  
+	 <input type="submit" value="Üye ol" id="btn1"/>
+	  
+	  
+	  <p id="c2">Hesabınız var mı?</p>
+	  <input type="button" id="btn2">
+	<a href="giris.html">  <p id="c3">Giriş yap </p> </a>
+	</form>	  
+</div>
+</div>
+</body>
+</html>

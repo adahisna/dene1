@@ -1,0 +1,137 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#site
+{
+	height: 100%;
+	width: 100%;
+}
+#icerik
+{
+	display: block;
+	margin: 2%;
+	margin-left: 28%;
+	width: 700px;
+	height: 700px;
+	border: solid 2px black;
+}
+#a1
+{
+	display: block;
+	margin-top: 2%;
+	margin-left: 42%;
+}
+#p1
+{
+	display: block;
+	margin-top: 10%;
+	margin-left: 2%;
+}
+#kutu1
+{
+	display: block;
+	margin-left: 13%;
+	margin-top: -2.6%;
+}
+#p2
+{
+	display: block;
+	margin-top: 5%;
+	margin-left: 2%;
+}
+#kutu2
+{
+	display: block;
+	margin-left: 13%;
+	margin-top: -2.6%;
+}
+#p3
+{
+	display: block;
+	margin-top: 5%;
+	margin-left: 2%;
+}
+#r1
+{
+	display: block;
+	margin-left: 13%;
+	margin-top: -2.6%;
+}
+#r2
+{
+	display: block;
+	margin-left: 13%;
+	margin-top: 4%;
+}
+#r3
+{
+	display: block;
+	margin-left: 13%;
+	margin-top: 5%;
+}
+#s1
+{
+	display: block;
+	margin-top: -15%;
+	margin-left: 18%;
+}
+#s2
+{
+	display: block;
+	margin-top: 3.2%;
+	margin-left: 18%;
+}
+#s3
+{
+	display: block;
+	margin-top: 4.3%;
+	margin-left: 18%;
+}
+#btn1
+{
+	color: white;
+	background-color: black;
+	display: block;
+	height: 40px;
+	width: 120px;
+	margin-left: 50%;
+	margin-top: 10%;
+}
+#c1
+{
+	color: pink;
+	display: block;
+	margin-top: -4.3%;
+	margin-left: 56%;
+}
+#c2
+{
+	color: black;
+	display: block;
+	margin-top: 10.3%;
+	margin-left: 50%;
+}
+#btn2
+{
+	color: white;
+	background-color: black;
+	display: block;
+	height: 40px;
+	width: 120px;
+	margin-left: 69%;
+	margin-top: -4%;
+}
+#c3
+{
+	color: white;
+	display: block;
+	margin-top: -4.3%;
+	margin-left: 73%;
+}
+a
+{
+	color:white;
+	text-decoration: none;
+}
