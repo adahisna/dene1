@@ -1,0 +1,17 @@
+*
+{padding: 0px;
+margin: 0px;}
+html
+{
+	background-color: black;
+	display: block;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+}
+display
+{
+	display: block;
+}
