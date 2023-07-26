@@ -1,0 +1,18 @@
+#b1
+{
+	margin-left: 60px; height: 40px; width:120px; margin-top: 30px; display: block; background-color:blue; color: white; font-size: 14pt;
+}
+#b1:hover
+{
+	height: 45px; width:125px;
+	background-color:white;
+	color: black;
+	font-size: 15pt;
+}
+#b2
+{
+	height: 40px;
+	width: 135px;
+	margin-left: 380px;
+	display: block;
+}

@@ -1,0 +1,11 @@
+#bu1
+{
+	margin-left: 230px; height: 40px; width:120px; margin-top: -130px; display: block; background-color:blue; color: white; position: fixed;
+}
+#bu1:hover
+{
+	height: 45px; width:125px;
+	background-color:white;
+	color: black;
+	font-size: 15pt;
+}

@@ -7,41 +7,20 @@
 <link href="css/destekf.css" type="text/css" rel="stylesheet">
 <link href="css/styleee.css" type="text/css" rel="stylesheet"/>
 <link href="css/yataymenu.css" type="text/css" rel="stylesheet"/>
+<link href="css/butonlar.css" type="text/css" rel="stylesheet"/>
 <script>
-		function dogrula()
+	function dogrula1()
 		{
-			var x=document.forms["form1"]["a1"].value;
-			var y=document.forms["form1"]["a2"].value;
-			var t=document.forms["form1"]["a3"].value;
-			var u=document.forms["form1"]["a4"].value;
-			var z=document.forms["form1"]["ra2"].value;
-			if(x == null|| x == "")
+			var a=document.forms["form2"]["k1"].value;
+			var b=document.forms["form2"]["k2"].value;
+			if(a == null|| a == "")
 			{
 				alert("Üye adınızı girmediniz");
 				return false;
 			}
-			
-			if(y == null|| y == "")
+			if(b == null|| b == "")
 			{
-				alert("E-postanızı girmediniz");
-				return false;
-			}
-			
-			if(t == null|| t == false)
-			{
-				alert("Şifrenizi giriniz");
-				return false;
-			}
-			
-			if(u!=t)
-			{
-				alert("Şifreler uyuşmuyor");
-				return false;
-			}
-			
-			if(z == null|| z == false)
-			{
-				alert("Cinsiyetinizi seciniz");
+				alert("Şifrenizi girmediniz");
 				return false;
 			}
 		}
@@ -49,27 +28,6 @@
 </head>
 
 <body style="overflow-x: hidden;">
-  <div style="opacity:0.7" id="baslik"> <!--baslik baslangıc -->
-	<ul>
-      <li><a href="index.html" style="opacity: 0.9;">Anasayfa</a></li>
-      <li><a href="hakkında.html" style="margin-left:-150px;opacity: 0.9;">Hakkımızda</a></li>
-      <li><a href="urunler.html" style="margin-left:-310px; padding: 14px; opacity: 0.9; ">Ürünler</a>
-		  <ul>
-			  <li style="font-size: 18px;border: 2px solid black; background-color: black; line-height: 30px; margin-left:-130px; margin-top:-2px; padding:5px;"><a href="tp9.html">TP9 Elite Combat</a>
-			  </li>
-			  <li style="font-size: 18px;border: 2px solid black; background-color: black; line-height: 30px; margin-left:-220px; margin-top:40px;"><a href="m2.html">M2 QCB</a>
-			  </li>
-		  </ul>
-	  </li>
-      <li style="margin-left:200px;"><a href="destek.html"> Destek </a> 
-      	<ul>
-        	<li style="color:white; margin-left:20px; margin-top:-10px; display:block;"><a href="destekf.html">Yetkili Giriş</a></li>
-         </ul>
-      </li>
-	  <li><img src="resimler/aa.png" width="150px;" height="60px;" style="margin-top:-30px; margin-left:90px; background-color:black; opacity: 0.8;"/></li>
-	  <li><a href="index.html"><img src="resimler/logo2.jpg" width="300px;" height="120px;" style="margin-top:-89px; margin-left:510px; background-color:black; display: block;"/> </a> </li>
-    </ul>
- </div><!--baslık son -->
 	
   <div id="icerik"><!--çerik baslangıc -->
 	  
@@ -84,35 +42,20 @@
 	  
 	 <div style="display: block;  width:100%; margin-left: 100px; color: white; border: 2px solid white; padding:5px;">
 		 
-        <form name="form1" action="gonderd.html" onSubmit="return dogrula()">
+        <form name="form2" style="height:350px;" action="girildi.html" onSubmit="return dogrula1()">
 			
 	    <p>Üye Adı: </p>
-	  	<input type="text" name="a1"/>
+	  	<input type="text" placeholder="   Üye adınızı giriniz" name="k1"/>
 	  
-	  	<p>E-posta: </p>
-	  	<input type="text" name="a2"/>
-			
 		<p>Şifreniz: </p>
-	  	<input type="text" name="a3"/>
-			
-		<p>Şifreniz: </p>
-	  	<input type="text" name="a4"/>
+	  	<input type="text" placeholder="   Şifrenizi giriniz" name="k2"/>
 	  
-	  	<p id="p3">Cinsiyet: </p>
-	    <input type="radio" name="ra2">
-	    <input style="margin-top: 20px; display: block;" type="radio"  name="ra2">
-	    <input style="margin-top: 40px; display: block;" type="radio"   name="ra2">
-			
-	  	<p style="margin-left: 20px; margin-top: -125px; display: block;">Erkek </p>
-	    <p style="margin-left: 20px; display: block; margin-top:6px;">Kadın </p>
-	    <p style="margin-left: 20px; display: block; margin-top: 14px;">Diğer </p>
-	  
-	 <input style="margin-left: 120px; height: 40px; width:120px;" type="submit" value="Üye ol"/>
+	 <input id="b1" type="submit" value="Giriş"/>
 	  
 	  
-	  <p style="margin-left:200px;">Hesabınız var mı?</p>
-	  <input style="height: 30px; width: 120px; margin-left: 220px;" type="button">
-	<a href="giris.html">  <p style="margin-left: 235px; margin-top: -50px; color: black;">Giriş yap </p> </a>
+	  <p style="margin-left:300px; color: darkred;display: block; margin-top: -20px;">Yetkiniz yok mu?</p>
+	  <input id="b2" type="button">
+	<a href="giris.html" target="tikla">  <p style="margin-left: 390px; margin-top: -43px; color: black; font-size: 16pt;">Talep oluştur </p> </a>
 	</form>	  
 	</div>
 	  

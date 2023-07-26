@@ -6,11 +6,12 @@
 }
 #baslik 
 {
+	height: 100px;
 	position: fixed; top: 0px;
 	margin-right: 50px;
 	text-decoration:none;
 	background-color:black;
-	width: 100%;
+	width: 1360px;
 	color:white;
 	border-radius:0px;
 	display:block;
@@ -20,7 +21,7 @@
 	letter-spacing:2px;
 	border:2px solid black;
 	font-weight:bold;
-	font-family:Cambria, "Hoefler Text", "Liberation Serif","Times", "Times New Roman", "serif";
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size:52px;
 }
 #icerik
