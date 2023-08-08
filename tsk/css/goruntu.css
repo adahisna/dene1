@@ -1,0 +1,1645 @@
+@media screen and (max-width: 600px)
+{
+	body{
+		background-color: blue;
+	}
+	#menu
+	{
+		width:80;
+	}
+	#yataymenu li
+	{
+		display: none;
+	}
+	tsklogo
+	{	
+	height: 70px;
+	width: 60px;
+	margin-top: 50px;
+	margin-left: 20px;
+	}
+#tc
+	{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-left: 90px;
+	margin-top: -65px;
+	opacity: 0.8;
+	}
+#msb
+	{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: 5px;
+	margin-left: 90px;
+	opacity: 0.8;
+	}
+#gb
+	{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: 5px;
+	margin-left: 90px;
+	opacity: 0.8;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:-134.4%;
+	}
+	#na1
+	{
+		margin-top: 0px;
+		display: block;
+		margin-left: 10px;
+		width: 12%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		display: none;
+		margin-top: -20px;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -83.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#nsn1
+	{
+	margin-top: 5px;
+	display: block;
+	margin-left: 10px;
+	width: 20%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#nsn2
+	{
+	display: none;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#yanresim2
+	{
+	margin-top: -72%;
+	position: relative;
+	display: block;
+	margin-left: 57.3%;
+	height: 170px;
+	width: 42%;
+	}
+	#yanresim3
+	{
+	margin-top: -2%;
+	position: relative;
+	display: block;
+	margin-left: 47.3%;
+	height: 170px;
+	width: 52%;
+	}
+	#gk1
+{
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	
+}
+@media screen and (min-width: 900px)
+{
+	#iframe
+	{
+		position:static;
+		display: block;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top: -350px;
+	}
+	#na1
+	{
+		margin-top: 20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: -40px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -12.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#yanresim2
+	{
+	margin-top: -35px;
+	position: relative;
+	display: block;
+	margin-left: 19.3%;
+	height: 170px;
+	width: 13%;
+	}
+	#gk1
+	{
+	display: block;
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+}
+
+@media screen and (min-width: 1000px)
+{
+	body
+	{
+		background-color: white;
+	}
+	#frame
+	{
+		position:static;
+		height: 579px;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:22%;
+	}
+	#na1
+	{
+		margin-top: 20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: -40px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -14.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#yanresim2
+	{
+	margin-top: -7%;
+	position: relative;
+	display: block;
+	margin-left: 57.3%;
+	height: 170px;
+	width: 42%;
+	}
+	#nsn2
+	{
+	margin-top: -20px;
+	display: block;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#yanresim3
+	{
+	margin-top: -3%;
+	position: relative;
+	display: block;
+	margin-left: 47.3%;
+	height: 170px;
+	width: 52%;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: 130px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#gk1
+	{
+	display: block;
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	
+	
+}
+
+@media screen and (min-width: 1100px)
+{
+	body
+	{
+		background-color: lightgoldenrodyellow;
+	}
+	#frame
+	{
+		position:static;
+		height: 579px;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:15%;
+	}
+	#na1
+	{
+		margin-top: 20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: -40px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -19.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#yanresim2
+	{
+	margin-top: -7%;
+	position: relative;
+	display: block;
+	margin-left: 57.3%;
+	height: 170px;
+	width: 42%;
+	}
+	#nsn2
+	{
+	margin-top: -20px;
+	display: block;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#yanresim3
+	{
+	margin-top: -3%;
+	position: relative;
+	display: block;
+	margin-left: 47.3%;
+	height: 170px;
+	width: 52%;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: 130px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#gk1
+	{
+	display: block;
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	
+	
+}
+
+@media screen and (min-width: 1200px)
+{
+	body
+	{
+		background-color: red;
+	}
+	#frame
+	{
+		position:static;
+		height: 579px;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:22%;
+	}
+	#na1
+	{
+		margin-top: 20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: -40px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -14.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#yanresim2
+	{
+	margin-top: -7%;
+	position: relative;
+	display: block;
+	margin-left: 57.3%;
+	height: 170px;
+	width: 42%;
+	}
+	#nsn2
+	{
+	margin-top: -20px;
+	display: block;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#yanresim3
+	{
+	margin-top: -3%;
+	position: relative;
+	display: block;
+	margin-left: 47.3%;
+	height: 170px;
+	width: 52%;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: 130px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#gk1
+	{
+	display: block;
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	
+	
+}
+@media screen and (min-width: 1400px)
+{
+	body{
+		background-color: palegreen;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:23%;
+	}
+	#na1
+	{
+		margin-top: 20px;
+		display: block;
+		width: 50%;
+		font-size: 12pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: 20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#nato
+	{
+		margin-top: -61.5%;
+		position: static;
+		border: 1px solid black;
+		height: 180px;
+		display: block;
+		width: 32%;
+		margin-left:68%;
+	}
+	#yanresim1
+	{
+	margin-top: -12.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#nsn2
+	{
+	margin-top: -20px;
+	display: block;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#gk1
+	{
+	display: block;
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	display: block;	
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	display: block;	
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#uye
+	{
+	display: block;
+	margin-top: -3%;
+	margin-left: 400%;
+	background-color: #E05759;
+	width: 120px;
+	height: 30px;
+	}
+	#a
+	{
+		opacity: 0;
+	}
+	#uyeg
+	{
+		display: block;
+		margin-left: 400px;
+	}
+}
+
+@media screen and (min-width: 1500px)
+{
+	body{
+		background-color: pink;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:25%;
+	}
+	#na1
+	{
+		margin-top: 0px;
+		display: block;
+		margin-left: 10px;
+		width: 55%;
+		font-size: 12pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: -20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -8.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#nsn2
+	{
+	margin-top: -20px;
+	display: block;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#yanresim2
+	{
+	margin-top: -5%;
+	position: relative;
+	display: block;
+	margin-left: 57.3%;
+	height: 170px;
+	width: 42%;
+	}
+	#yanresim3
+	{
+	margin-top: -2%;
+	position: relative;
+	display: block;
+	margin-left: 47.3%;
+	height: 170px;
+	width: 52%;
+	}
+	#gk1
+{
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	
+}
+
+
+@media screen and (min-width: 1600px)
+{
+	body{
+		background-color:white;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:27%;
+	}
+	#na1
+	{
+		margin-top: 0px;
+		display: block;
+		margin-left: 10px;
+		width: 52%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: -20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -5.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#nsn2
+	{
+	margin-top: -20px;
+	display: block;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#yanresim2
+	{
+	margin-top: -5%;
+	position: relative;
+	display: block;
+	margin-left: 57.3%;
+	height: 170px;
+	width: 42%;
+	}
+	#yanresim3
+	{
+	margin-top: -2%;
+	position: relative;
+	display: block;
+	margin-left: 47.3%;
+	height: 170px;
+	width: 52%;
+	}
+	#gk1
+{
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	
+}
+
+
+@media screen and (min-width: 1700px)
+{
+	body{
+		background-color: pink;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:27.4%;
+	}
+	#na1
+	{
+		margin-top: 0px;
+		display: block;
+		margin-left: 10px;
+		width: 52%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: -20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -5.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#nsn2
+	{
+	margin-top: -20px;
+	display: block;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#yanresim2
+	{
+	margin-top: -5%;
+	position: relative;
+	display: block;
+	margin-left: 57.3%;
+	height: 170px;
+	width: 42%;
+	}
+	#yanresim3
+	{
+	margin-top: -2%;
+	position: relative;
+	display: block;
+	margin-left: 47.3%;
+	height: 170px;
+	width: 52%;
+	}
+	#gk1
+{
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	
+}
+
+@media screen and (min-width: 1800px)
+{
+	body{
+		background-color: white;
+	}
+	#butonlar
+	{
+		position: relative;
+		display: block;
+		margin-top:31.4%;
+	}
+	#na1
+	{
+		margin-top: 0px;
+		display: block;
+		margin-left: 10px;
+		width: 52%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#na2
+	{
+		margin-top: -20px;
+		display: block;
+		margin-left: 10px;
+		width: 54%;
+		font-size: 11pt;
+		font-style: normal;
+	}
+	#yanresim1
+	{
+	margin-top: -3.3%;
+	position:relative;
+	display: block;
+	margin-left:54%;
+	height: 84%;
+	width: 45%;
+	}
+	#nsn2
+	{
+	margin-top: -20px;
+	display: block;
+	margin-left: 10px;
+	width: 55%;
+	font-size: 11pt;
+	font-style: normal;
+	}
+	#mrt2
+	{
+	display: block;
+	font-size: 11pt;
+	margin-top: -20px;
+	margin-left: 10px;
+	width: 420px;
+	}
+	#yanresim2
+	{
+	margin-top: -5%;
+	position: relative;
+	display: block;
+	margin-left: 57.3%;
+	height: 170px;
+	width: 42%;
+	}
+	#yanresim3
+	{
+	margin-top: -2%;
+	position: relative;
+	display: block;
+	margin-left: 47.3%;
+	height: 170px;
+	width: 52%;
+	}
+	#gk1
+{
+	text-decoration:underline;
+	color: red;
+	font-size: 16pt;
+	font-style: normal;
+	margin-top: 60px;
+	margin-left: 16%;
+	}
+	#gr
+	{
+	display: block;
+	width: 8%;
+	height: 200px;
+	margin-left: 16%;
+	margin-top:20px;
+	}
+	#a1
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: -10%;
+	}
+	#a2
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	}
+	#a3
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a4
+	{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a5
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 4px;
+	font-size: 12pt;
+	}
+	#a6
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a7
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	#a8
+	{
+	position: relative;
+	margin-left: 16%;
+	margin-top: 0.5%;
+	word-spacing: 3px;
+	font-size: 12pt;
+	}
+	
+}

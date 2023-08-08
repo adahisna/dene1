@@ -1,0 +1,85 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+display
+{
+	display: block;
+}
+#alt
+{
+	height: 100%;
+	display: block;
+	margin-top: 50px;
+	width: 100%;
+	background-color: #D7282B;
+}
+#bina
+{
+	opacity: 0.7;
+	margin-left: 32%;
+	display: block;
+	position: relative;
+}
+#logo2
+{
+	margin-top: 30px;
+	margin-left: 20%;
+	width:60px;
+	height: 70px;
+}
+#tc1
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-left: 24%;
+	margin-top: -65px;
+	opacity: 0.8;
+}
+#msb1
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: 5px;
+	margin-left: 24%;
+	opacity: 0.8;
+}
+#gb1
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: 5px;
+	margin-left: 24%;
+	opacity: 0.8;
+}
+#bakanlik
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: -60px;
+	margin-left: 42%;
+	opacity: 0.8;
+}
+#adres
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-left: 47%;
+	opacity: 0.8;
+}
+#no
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-left: 49%;
+	opacity: 0.8;
+}

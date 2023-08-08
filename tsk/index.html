@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Türk Silahlı Kuvvetleri</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<link href="css/bas.css" type="text/css" rel="stylesheet"/>
+<link href="css/genel.css" type="text/css" rel="stylesheet"/>
+<link href="css/menu.css" type="text/css" rel="stylesheet"/>
+<link href="java/index.js" type="text/javascript" rel="stylesheet"/>
+<link href="css/yataymenu.css" type="text/css" rel="stylesheet"/>
+<link href="css/icerik.css" type="text/css" rel="stylesheet"/>
+<link href="css/23nisan.css" type="text/css" rel="stylesheet"/>
+<link href="css/18mart/18mart.css" type="text/css" rel="stylesheet"/>
+<link href="css/goruntu.css" type="text/css" rel="stylesheet"/>
+	<script>
+		function renkdegistirme()
+		{
+			document.getElementById("nsn").style.backgroundColor="#051C4B";
+			document.getElementById("nsn").style.color="white";
+			document.getElementById("nato").style.backgroundColor="white";
+			document.getElementById("nato").style.color="black";
+		}
+		function renkdegistirme1()
+		{
+			document.getElementById("nsn").style.backgroundColor="white";
+			document.getElementById("nsn").style.color="black";
+			document.getElementById("nato").style.backgroundColor="#051C4B";
+			document.getElementById("nato").style.color="white	";
+			
+			
+		}
+	</script>
+</head>
+
+<body>
+	
+	<div id="bas">
+		<img id="twitter" src="resimler/sosyal/twitterr.png">
+		<img id="instagram" src="resimler/sosyal/instagram1.png">
+		<img id="yt" src="resimler/sosyal/yt.png">
+		<li id="iltsm">İletişim</li>
+	</div>
+	
+	<div id="menu">
+		<div id="resimler">
+		<img id="tsklogo" src="resimler/sosyal/tsklogo.png">
+		<h1 id="tc">TÜRKİYE CUMHİYETİ</h1>
+		<h1 id="msb">MİLLİ SAVUNMA BAKANLIĞI</h1>
+		<h1 id="gb">GENELKURMAY BAŞKANLIĞI</h1>
+		</div>	
+		
+		<div id="yataymenu">
+			<ul>
+				<li> <a href="index.html" onClick="sayfay">ANASAYFA</a> </li>
+				<li> <a href="sayfalar/genelkurmay/genelkurmay.html">GENELKURMAY BAŞKANI</a></li>
+				<li> <a href="">TSK HAKKINDA</a> </li>
+			</ul>
+		</div>
+		
+	</div>
+	
+	<div id="icerik1">
+		
+		<div id="frame">
+			<iframe name="tikla" id="iframe" src="sayfalar/nato/nato.html"></iframe>
+		</div>
+		<div id="butonlar">
+			<a href="sayfalar/nato/nato.html" target="tikla">
+			<div id="nato" onClick="renkdegistirme1()">
+				
+				<h1 id="na1">Genelkurmay Başkanı Orgeneral Ada Özçelik'in NATO Askeri Komite Toplantısına Katılması</h1>
+				<img id="yanresim1" src="resimler/yanresimler/ada özcelik.jpg">
+				<h1 id="na2">(24 nisan 2023)</h1>
+				
+			</div>
+			</a>
+			
+			<a href="sayfalar/23nisan/23nisan.html" target="tikla">
+			<div id="nsn" onClick="renkdegistirme()">
+				<h1 id="nsn1">23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Kutlaması</h1>
+				<img id="yanresim2" src="resimler/yanresimler/23nisan1.jpg">
+				<h1 id="nsn2">(23 nisan 2023)</h1>
+			</div>
+			</a>
+		
+			</div>
+	</div>
+	
+</body>
+</html>

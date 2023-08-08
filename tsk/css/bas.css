@@ -1,0 +1,45 @@
+#bas
+{
+   display: block;
+   position: fixed;
+   height:40px;
+   width: 100%;
+   background-color: #E05759;
+}
+
+#twitter
+{
+	display: block;
+	height: 18px;
+	width: 18px;
+	margin-top: 11px;
+	margin-left: 2%;
+}
+
+#instagram
+{
+	display: block;
+	height: 30px;
+	width: 30px;
+	margin-top: -24px;
+	margin-left: 4%;
+}
+#yt
+{
+	display: block;
+	height: 11px;
+	width: 18px;
+	margin-top: -20px;
+	margin-left: 7.5%;
+}
+#iltsm
+{
+	display: block;
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+	margin-top: -15px;
+	color: white;
+	margin-right: 70px;
+	font-size: 10pt;
+}

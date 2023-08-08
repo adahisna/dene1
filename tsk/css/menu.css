@@ -1,0 +1,49 @@
+#menu
+{
+	display: block;
+	height: 130px;
+	width: 100%;
+	background-color:#D7282B;
+}
+#tsklogo
+{
+	height: 70px;
+	width: 60px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#tc
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-left: 90px;
+	margin-top: -65px;
+	opacity: 0.8;
+}
+#msb
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: 5px;
+	margin-left: 90px;
+	opacity: 0.8;
+}
+#gb
+{
+	display: block;
+	color: white;
+	font-size: 11pt;
+	margin-top: 5px;
+	margin-left: 90px;
+	opacity: 0.8;
+}
+#uye
+{
+	margin-top: -7%;
+	margin-left: 40%;
+	background-color: #E05759;
+	width: 120px;
+	height: 30px;
+}
