@@ -1,3 +1,53 @@
+#urun1
+{
+	margin-top: 1%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+}
+#urun2
+{
+	margin-left: 30%;
+	margin-top: -46.3%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	position: relative;
+}
+#urun3
+{
+	margin-left: 60%;
+	margin-top: -46.3%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	position: relative;
+}
+#urun4
+{
+	margin-top: 2%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+}
+#urun5
+{
+	margin-left: 30%;
+	margin-top: -46.3%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	position: relative;
+}
+#urun6
+{
+	margin-left: 60%;
+	margin-top: -46.3%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	position: relative;
+}
 *
 {
 	margin: 0px;
@@ -5,7 +55,7 @@
 }
 html
 {
-	background-color: black;
+	background-color: white;
 	overflow-x: hidden;
 }
 #baslik 
@@ -47,9 +97,9 @@ html
 {
 			overflow: hidden;
 			width: 99%;
-			height: 940px;
+			height: 1940px;
 			border: 2px double black;
-			background-color:black;
+			background-color:white;
 			padding: -20px;
 			line-height:40px;
 			font-size:23px;
