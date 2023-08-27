@@ -1,0 +1,289 @@
+@media screen and (max-width: 600px)
+{
+	#urun2{
+		display: none;
+	}
+	#baslik
+	{
+		height: 0px;
+		background-color:pink;
+		width: 100%;
+		display:block;
+		text-align:center;
+		border:2px solid black;
+		font-weight:bold;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif","Times", "Times New Roman", "serif";
+	}
+	baslik ul
+	{
+	margin-left:0px; margin-top: -60px;
+	}
+	#baslik li
+	{
+	list-style-type:none; float:left; width:-400%; height: 30px; margin-left:20px; display: block;
+	}
+	#bar
+	{
+	background-color:black;
+	margin-top: 126px;
+	display: block;
+	width: 100%;
+	color: white;
+	}
+	#logo
+	{
+	margin-top: 5%;
+	margin-left: 1%;
+	display: block;
+	height: 120px;
+	width: 120px;
+	background-color: black;
+	}
+	#linkler
+	{
+		display: block;
+		margin-top: -25%;
+	}
+	#icerik1
+	{
+	width: 200%;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	#urun2{
+		display: none;
+	}
+	
+	#baslik
+	{
+		height: 0px;
+		background-color:pink;
+		width: 100%;
+		display:block;
+		text-align:center;
+		border:2px solid black;
+		font-weight:bold;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif","Times", "Times New Roman", "serif";
+	}
+	baslik ul
+	{
+	margin-left:0px; margin-top: -60px;
+	}
+	#baslik li
+	{
+	list-style-type:none; float:left; width:-400%; height: 30px; margin-left:20px; display: block;
+	}
+	#bar
+	{
+	background-color:black;
+	margin-top: 126px;
+	display: block;
+	width: 100%;
+	color: white;
+	}
+	#logo img
+	{
+		margin-top: -8%;
+	}
+	#logo
+	{
+	margin-top: -40%;
+	margin-left: 1%;
+	display: block;
+	height: 120px;
+	width: 120px;
+	background-color: black;
+	}
+	#linkler
+	{
+		display: block;
+		margin-top: -25%;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	
+	#urun1
+	{
+	margin-top: 1%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	}
+	#urun2
+	{
+	margin-left: 30%;
+	margin-top: -46.3%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	}
+	#baslik
+	{
+		height: 0px;
+		background-color:pink;
+		width: 100%;
+		display:block;
+		text-align:center;
+		border:2px solid black;
+		font-weight:bold;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif","Times", "Times New Roman", "serif";
+	}
+	baslik ul
+	{
+	margin-left:0px; margin-top: -60px;
+	}
+	#baslik li
+	{
+	list-style-type:none; float:left; width:-400%; height: 30px; margin-left:20px; display: block;
+	}
+	#bar
+	{
+	background-color:black;
+	margin-top: 126px;
+	display: block;
+	width: 100%;
+	color: white;
+	}
+	#logo
+	{
+	margin-top: 8%;
+	margin-left: 1%;
+	display: block;
+	height: 120px;
+	width: 120px;
+	background-color: black;
+	}
+	#linkler
+	{
+		display: block;
+		margin-top: -25%;
+	}
+}
+@media screen and (max-width: 900px)
+{
+	
+	#icerik
+	{
+		background-color: red;
+	}
+	#baslik
+	{
+		height: 0px;
+		background-color:pink;
+		width: 100%;
+		display:block;
+		text-align:center;
+		border:2px solid black;
+		font-weight:bold;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif","Times", "Times New Roman", "serif";
+	}
+	baslik ul
+	{
+	margin-left:0px; margin-top: -60px;
+	}
+	#baslik li
+	{
+	list-style-type:none; float:left; width:-400%; height: 30px; margin-left:20px; display: block;
+	}
+	#bar
+	{
+	background-color:black;
+	margin-top: 126px;
+	display: block;
+	width: 100%;
+	color: white;
+	}
+	#logo
+	{
+	margin-top: 8%;
+	margin-left: 1%;
+	display: block;
+	height: 120px;
+	width: 120px;
+	background-color: black;
+	}
+	#linkler
+	{
+		display: block;
+		margin-top: -25%;
+	}
+	#urun1
+	{
+	margin-top: 1%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	}
+	#urun2
+	{
+	margin-left: 80%;
+	margin-top: -46.3%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	}
+}
+@media screen and (max-width: 1200px)
+{
+	
+	#baslik
+	{
+		height: 0px;
+		background-color:pink;
+		width: 100%;
+		display:block;
+		text-align:center;
+		border:2px solid black;
+		font-weight:bold;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif","Times", "Times New Roman", "serif";
+	}
+	baslik ul
+	{
+	margin-left:0px; margin-top: -60px;
+	}
+	#baslik li
+	{
+	list-style-type:none; float:left; width:-400%; height: 30px; margin-left:20px; display: block;
+	}
+	#bar
+	{
+	background-color:black;
+	margin-top: 126px;
+	display: block;
+	width: 100%;
+	color: white;
+	}
+	#logo
+	{
+	margin-top: 8%;
+	margin-left: 1%;
+	display: block;
+	height: 120px;
+	width: 120px;
+	background-color: black;
+	}
+	#linkler
+	{
+		display: block;
+		margin-top: -25%;
+	}
+	#urun1
+	{
+	margin-top: 1%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	}
+	#urun2
+	{
+	margin-left: 30%;
+	margin-top: -46.3%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
+	}
+}
