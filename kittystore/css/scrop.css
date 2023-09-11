@@ -3,55 +3,38 @@
 	color: black;
 	text-decoration: none;
 }
-#urun1
+#bt
+{
+	width: 40px; height: 40px; margin-top:0px; margin-left: 430px; border-radius:10px; font-size:14pt; background:white; 
+	padding-top:-10px;
+}
+#bt:hover
+{
+	background:gray;
+}
+#bt2
+{
+	width: 40px; height: 40px; border-radius:10px; font-size:14pt; background:white; 
+	padding-top:-10px;
+}
+#bt2:hover
+{
+	background:gray;
+}
+#bt3
+{
+	width: 40px; height: 40px; border-radius:10px; font-size:14pt; background:white; 
+	padding-top:-10px;
+}
+#bt3:hover
+{
+	background:gray;
+}
+#urn1
 {
 	margin-top: 1%;
 	height: 600px;
 	width: 350px;
-	border: 2px solid black;
-}
-#urun2
-{
-	margin-left: 30%;
-	margin-top: -46.3%;
-	height: 600px;
-	width: 350px;
-	border: 2px solid black;
-	position: relative;
-}
-#urun3
-{
-	margin-left: 60%;
-	margin-top: -46.3%;
-	height: 600px;
-	width: 350px;
-	border: 2px solid black;
-	position: relative;
-}
-#urun4
-{
-	margin-top: 2%;
-	height: 600px;
-	width: 350px;
-	border: 2px solid black;
-}
-#urun5
-{
-	margin-left: 30%;
-	margin-top: -46.3%;
-	height: 600px;
-	width: 350px;
-	border: 2px solid black;
-	position: relative;
-}
-#urun6
-{
-	margin-left: 60%;
-	margin-top: -46.3%;
-	height: 600px;
-	width: 350px;
-	border: 2px solid black;
-	position: relative;
 }
 *
 {
