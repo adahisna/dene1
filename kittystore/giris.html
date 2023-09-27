@@ -4,24 +4,17 @@
 <meta charset="utf-8">
 <title>Giriş</title>
 <link href="css/index.css" type="text/css" rel="stylesheet"/>
-<link href="css/logolar.css" type="text/css" rel="stylesheet"/>
 <link href="css/goruntu.css" type="text/css" rel="stylesheet"/>
 <link href="css/icerik.css" type="text/css" rel="stylesheet"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/genel.css" type="text/css" rel="stylesheet">
 <link href="css/giris.css" type="text/css" rel="stylesheet">
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
 <link href="css/bootstrap.css.map" type="text/css" rel="stylesheet">
 <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
-<link href="css/bootstrap.min.css.map" type="text/css" rel="stylesheet">
-<link href="css/bootstrap.rtl.css" type="text/css" rel="stylesheet">
-<link href="css/bootstrap.rtl.css.map" type="text/css" rel="stylesheet">
-<link href="css/bootstrap.rtl.min.css" type="text/css" rel="stylesheet">
-<link href="css/bootstrap.rtl.min.css.map" type="text/css" rel="stylesheet">
 <link href="js/bootstrap.bundle.js" type="text/javascript" rel="stylesheet">
 <link href="js/bootstrap.bundle.min.js" type="text/javascript" rel="stylesheet">
-<link href="js/bootstrap.esm.js" type="text/javascript" rel="stylesheet">
-<link href="js/bootstrap.esm.min.js" type="text/javascript" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <link href="js/bootstrap.js" type="text/javascript" rel="stylesheet">
 <link href="js/bootstrap.min.js" type="text/javascript" rel="stylesheet">
 <script>
@@ -78,44 +71,51 @@
 </head>
 
 <body style="background-color:white;">
-  <div id="icerik3" style="">
 	  
 	  <div id="bar">
 		  	<marquee direction="left" bgcolor="red" scrollamount="12" style="display:block; margin-top:-124px;"><p>CHARMÈ'DE %50 VARAN İNDİRİM BAŞLADI</p></marquee>
 	  </div>
 	  
 	  <div> <img style="width: 110%;" src="images/logo3.png" class="img-fluid" alt="..."> </div>
-	  <div id="baslik">
 	
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html" style="margin-left: 100px;">Charme Butik</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <div class="baslik" style="font-weight: bold;">
+	
+   <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img style="margin-left:10px;" src="images/blogo.png" alt="Bootstrap" width="110" height="54">
+ 	</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html" style="color: black;">Ana Sayfa</a>
+          <a style="margin-left:30px;" class="nav-link" href="index.html">ANASAYFA</a>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ÜRÜNLER</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="kadin.html">Kadın</a></li>
+            <li><a class="dropdown-item" href="#">erkek</a></li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="urunler.html"  style="color: black;" >Ürünler</a>
+          <a class="nav-link" href="giris.html">GİRİŞ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="giris.html" style="color: black;" >Giriş</a>
+          <a class="nav-link" href="talep.html">TALEPLERİNİZ</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link" href="talep.html" style="color: black;" >Talebiniz</a>
+          <a class="nav-link" href="yardim.html">YARDIM</a>
         </li>
       </ul>
     </div>
-  </div>
-</nav>
-	  
-  </div>
-	  
-	    <div class="container-xl">
-		  <div id="uye">
+	</nav>
+</div>
+		<div class="container-fluid">
+			<div class="rw">
+		  <div class="uye">
+			  
 		<h1 style="font-size: 20pt; margin-left: 220px; margin-top:20px;">Üye Girişi</h1>
 			  
 		<form name="form1" action="index.html" onSubmit="return dogrula()" style="width:600px; height:250px;">
@@ -126,12 +126,13 @@
 	  <br>
 	 <button style="width: 400px; height: 60px; margin-top: 20px; margin-left: 80px;" type="submit" class="btn btn-secondary" >Giriş Yap</button>
 	</form>	  
-	</div>
+		</div>
 			
-	 <div id="uye2">
+	 <div class="uye">
+		 
 		<h1 style="font-size: 20pt; margin-left: 220px; margin-top:20px;">Hızlı Üye Ol</h1>
 			  
-		<form name="form2" action="urunler.html" onSubmit="return dogrula1()" style="width:600px; height:250px;">
+		<form name="form2" action="index.html" onSubmit="return dogrula1()" style="width:600px; height:250px;">
 			
 	  	<input placeholder="Adınız" style=" padding-left:5px; font-size: 12pt; margin-top:20px; margin-left: 30px; width:520px;" type="text" name="a1"/>
 	 <br>
@@ -152,9 +153,9 @@
 		<h1 style="font-size: 9pt; margin-left:340px; margin-top: -22px; colo">kabul ediyorum.</h1>
 			
 	 <button style="width: 400px; height: 60px; margin-top: 20px; margin-left: 80px;" type="submit" class="btn btn-secondary" >Giriş Yap</button>
-	</form>	  
+		</form>	  
+		</div>
 	</div>
-  </div>
 	  
 	  
 	  

@@ -1,3 +1,15 @@
+.tablo
+{
+	display: flex;
+	gap:1rem;
+	padding: 1rem;
+	flex-wrap: wrap;
+}
+.urunlr
+{
+	
+}
+
 #icerik a
 {
 	color: black;
@@ -19,39 +31,33 @@
 	border: 2px solid black;
 	position: relative;
 }
-#urun3
+#tulum1
 {
-	margin-left: 60%;
-	margin-top: -46.3%;
-	height: 600px;
-	width: 350px;
-	border: 2px solid black;
-	position: relative;
-}
-#urun4
-{
-	margin-top: 2%;
+	margin-top: -5%;
 	height: 600px;
 	width: 350px;
 	border: 2px solid black;
 }
-#urun5
+#jean1
 {
-	margin-left: 30%;
-	margin-top: -46.3%;
+	margin-top: -5%;
 	height: 600px;
 	width: 350px;
 	border: 2px solid black;
-	position: relative;
 }
-#urun6
+#tulum1
 {
-	margin-left: 60%;
-	margin-top: -46.3%;
+	margin-top: -5%;
 	height: 600px;
 	width: 350px;
 	border: 2px solid black;
-	position: relative;
+}
+#elbise1
+{
+	margin-top: -5%;
+	height: 600px;
+	width: 350px;
+	border: 2px solid black;
 }
 *
 {
@@ -101,9 +107,8 @@ html
 #icerik
 {
 			overflow: hidden;
-			width: 99%;
+			width: 110%;
 			height: 1940px;
-			border: 2px double black;
 			background-color:white;
 			padding: -20px;
 			line-height:40px;

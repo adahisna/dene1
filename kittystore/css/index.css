@@ -8,7 +8,7 @@ html
 	background-color: black;
 	overflow-x: hidden;
 }
-#baslik 
+.baslik 
 {
 	height: 0px;
 	background-color:black;
@@ -18,30 +18,6 @@ html
 	border:2px solid black;
 	font-weight:bold;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif","Times", "Times New Roman", "serif";
-}
-#baslik ul
-{
-	margin-left: 200px; margin-top: -30px;
-}
-#baslik li
-{
-	list-style-type:none; float:left; width:200px; height: 30px; margin-left:20px;
-}
-#baslik ul li a
-{
-	display:block;
-	text-decoration: none;
-	letter-spacing: 2px;
-	color: white;
-	font-size:19px;
-	position: relative;
-}
-#baslik img
-{
-	margin-top:10px;
-	margin-left:-2620px;
-	height: 100px;
-	width: 120px;
 }
 #icerik
 {

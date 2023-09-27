@@ -8,21 +8,15 @@
 <link href="../css/icerik.css" type="text/css" rel="stylesheet"/>
 <link href="../css/lilatulum.css" type="text/css" rel="stylesheet"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="../css/genel.css" type="text/css" rel="stylesheet">
-<link href="../css/bootstrap.css" type="text/css" rel="stylesheet">
-<link href="../css/bootstrap.css.map" type="text/css" rel="stylesheet">
-<link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
-<link href="../css/bootstrap.min.css.map" type="text/css" rel="stylesheet">
-<link href="../css/bootstrap.rtl.css" type="text/css" rel="stylesheet">
-<link href="../css/bootstrap.rtl.css.map" type="text/css" rel="stylesheet">
-<link href="../css/bootstrap.rtl.min.css" type="text/css" rel="stylesheet">
-<link href="../css/bootstrap.rtl.min.css.map" type="text/css" rel="stylesheet">
-<link href="../js/bootstrap.bundle.js" type="text/javascript" rel="stylesheet">
-<link href="../js/bootstrap.bundle.min.js" type="text/javascript" rel="stylesheet">
-<link href="../js/bootstrap.esm.js" type="text/javascript" rel="stylesheet">
-<link href="../js/bootstrap.esm.min.js" type="text/javascript" rel="stylesheet">
-<link href="../js/bootstrap.js" type="text/javascript" rel="stylesheet">
-<link href="../js/bootstrap.min.js" type="text/javascript" rel="stylesheet">
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="css/bootstrap.css.map" type="text/css" rel="stylesheet">
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="js/bootstrap.bundle.js" type="text/javascript" rel="stylesheet">
+<link href="js/bootstrap.bundle.min.js" type="text/javascript" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="js/bootstrap.js" type="text/javascript" rel="stylesheet">
+<link href="js/bootstrap.min.js" type="text/javascript" rel="stylesheet">
 	
 <script>
 	function renkdegistir()
@@ -51,49 +45,51 @@
 </head>
 
 <body style="background-color: black;">
- <div id="baslik">
 	
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html" style="margin-left: 100px;">Charme Butik</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <div class="baslik" style="font-weight: bold;">
+   <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <a class="navbar-brand" href="../index.html">
+      <img style="margin-left:10px;" src="../images/blogo.png" alt="Bootstrap" width="110" height="54">
+ 	</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+   </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.html" style="color: black;">Ana Sayfa</a>
+          <a style="margin-left:30px;" class="nav-link" href="../index.html">ANASAYFA</a>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ÜRÜNLER</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../kadin.html">Kadın</a></li>
+            <li><a class="dropdown-item" href="#">erkek</a></li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../urunler.html"  style="color: black;" >Ürünler</a>
+          <a class="nav-link" href="../giris.html">GİRİŞ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../giris.html"  style="color: black;" >Giriş</a>
+          <a class="nav-link" href="../talep.html">TALEPLERİNİZ</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link" href="../talep.html" style="color: black;" >Talebiniz</a>
+          <a class="nav-link" href="../yardim.html">YARDIM</a>
         </li>
       </ul>
     </div>
-  </div>
-</nav>
-	  
-  </div>
+	</nav>  
+</div>
 	
-  <div id="icerik" style="margin-top:50px;">
-	  
-	  <div style="background-color:white;height:9px;"> </div>
-	  
-	  <div id="bar">
+	<div id="bar">
 		  	<marquee direction="left" bgcolor="black" scrollamount="12" style="display:block; margin-top:-134px; padding:5px;"><p>YENİ STOKLAR</p> <p style="display: block; margin-top: -40px; margin-left: 900px;">500TL ÜZERİ ALIŞVERİŞLERDE KARGO BEDAVA</p></marquee>
 	  </div>
-	  
-	  <div style="background-color:white;height:7px;"> </div>
-	  
+	
+  <div id="icerik">
 	    <div class="container-xl">
 			<a href="../index.html">	<h1 style="font-size:9pt;">ANASAYFA></h1></a>
-			<a href="../urunler.html">	<h1 style="font-size:9pt; margin-top:-22px; margin-left:70px;">ÜRÜNLER> </h1> </a>
-									<h1 style="font-size:9pt; margin-top:-23px; margin-left:130px;">LİLA TULUM</h1>
+			<a href="../kadin.html">	<h1 style="font-size:9pt; margin-top:-22px; margin-left:70px;">ÜRÜNLER> </h1> </a>
+			<a href="../tulumlar.html">	<h1 style="font-size:9pt; margin-top:-23px; margin-left:130px;">TULUM> </h1> </a>
+			<h1 style="font-size:9pt; margin-top:-22px; margin-left:180px;">LİLA TULUM</h1>
 			
 			<button style="background:black; margin-left:430px;" type="button" class="btn btn-primary">
  			 Sepet <span class="badge text-bg-secondary"><p id="yaz" style="height:0px;">0</p></span>
